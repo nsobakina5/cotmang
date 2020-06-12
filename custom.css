@@ -1,0 +1,462 @@
+/* 20200608225406 - v2 */
+.gui,
+.gui-block-linklist li a {
+  color: #666666;
+}
+
+.gui-page-title,
+.gui a.gui-bold,
+.gui-block-subtitle,
+.gui-table thead tr th,
+.gui ul.gui-products li .gui-products-title a,
+.gui-form label,
+.gui-block-title.gui-dark strong,
+.gui-block-title.gui-dark strong a,
+.gui-content-subtitle {
+  color: #000000;
+}
+
+.gui-block-inner strong {
+  color: #848484;
+}
+
+.gui a {
+  color: #0a8de9;
+}
+
+.gui-input.gui-focus,
+.gui-text.gui-focus,
+.gui-select.gui-focus {
+  border-color: #0a8de9;
+  box-shadow: 0 0 2px #0a8de9;
+}
+
+.gui-select.gui-focus .gui-handle {
+  border-color: #0a8de9;
+}
+
+.gui-block,
+.gui-block-title,
+.gui-buttons.gui-border,
+.gui-block-inner,
+.gui-image {
+  border-color: #8d8d8d;
+}
+
+.gui-block-title {
+  color: #333333;
+  background-color: #ffffff;
+}
+
+.gui-content-title {
+  color: #333333;
+}
+
+.gui-form .gui-field .gui-description span {
+  color: #666666;
+}
+
+.gui-block-inner {
+  background-color: #f4f4f4;
+}
+
+.gui-block-option {
+  border-color: #ededed;
+  background-color: #f9f9f9;
+}
+
+.gui-block-option-block {
+  border-color: #ededed;
+}
+
+.gui-block-title strong {
+  color: #333333;
+}
+
+.gui-line,
+.gui-cart-sum .gui-line {
+  background-color: #cbcbcb;
+}
+
+.gui ul.gui-products li {
+  border-color: #dcdcdc;
+}
+
+.gui-block-subcontent,
+.gui-content-subtitle {
+  border-color: #dcdcdc;
+}
+
+.gui-faq,
+.gui-login,
+.gui-password,
+.gui-register,
+.gui-review,
+.gui-sitemap,
+.gui-block-linklist li,
+.gui-table {
+  border-color: #dcdcdc;
+}
+
+.gui-block-content .gui-table {
+  border-color: #ededed;
+}
+
+.gui-table thead tr th {
+  border-color: #cbcbcb;
+  background-color: #f9f9f9;
+}
+
+.gui-table tbody tr td {
+  border-color: #ededed;
+}
+
+.gui a.gui-button-large,
+.gui a.gui-button-small {
+  border-color: #8d8d8d;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.gui a.gui-button-large.gui-button-action,
+.gui a.gui-button-small.gui-button-action {
+  border-color: #8d8d8d;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.gui a.gui-button-large:active,
+.gui a.gui-button-small:active {
+  background-color: #cccccc;
+  border-color: #707070;
+}
+
+.gui a.gui-button-large.gui-button-action:active,
+.gui a.gui-button-small.gui-button-action:active {
+  background-color: #cccccc;
+  border-color: #707070;
+}
+
+.gui-input,
+.gui-text,
+.gui-select,
+.gui-number {
+  border-color: #8d8d8d;
+  background-color: #ffffff;
+}
+
+.gui-select .gui-handle,
+.gui-number .gui-handle {
+  border-color: #8d8d8d;
+}
+
+.gui-number .gui-handle a {
+  background-color: #ffffff;
+}
+
+.gui-input input,
+.gui-number input,
+.gui-text textarea,
+.gui-select .gui-value {
+  color: #000000;
+}
+
+.gui-progressbar {
+  background-color: #76c61b;
+}
+
+/* custom */
+@media only screen and (max-width: 599px) {
+    .hero .hero-image {
+        padding-bottom: 100%;
+    }
+}
+
+
+/* Sinan Adlim 27JUN18, Adding bank information next to bank transfer payment method Ticket #555043 BEGIN*/
+#gui-checkout-payment-methods > div > div.gui-checkout-payment-provider.gui-payment-provider-banktransfer > div > div.gui-payment-methods > div > label > span > span.gui-payment-method-name:after
+{
+content:" a Cuenta: BBVA #0110883603 Clabe:012180001108836038 Titular Diabut SA de CV" 
+}
+/* Sinan Adlim 27JUN18, Adding bank information next to bank transfer payment method Ticket #555043 END*/
+
+.button.add-to-cart-trigger {
+	position: relative;
+  background-color: #35A963;
+}
+.button.add-to-cart-trigger:hover {
+	position: relative;
+  background-color: #2D8A52;
+}
+.button.add-to-cart-trigger:after {
+  content: "\ebb7";
+  display: inline-block;
+  font: normal normal normal 16px/1 'Nucleo Mini';
+  speak: none;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.video-trigger-wrapper a {
+    padding: 8px 13px;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+}
+
+.video-trigger-wrapper a span {
+	color: #c4302b;
+  opacity: 1;
+}
+
+.video-trigger-wrapper a:hover {
+    border: 1px solid #888;
+}
+
+.specification-table tr td:last-child {
+    text-align: left;
+    padding: 8px 0 8px 11px;
+}
+
+.product-content .favourites:after, .product-content .compare:after {
+  content: attr(title);
+  font-size: 14px;
+}
+
+.product-content .favourites, .product-content .compare {
+	display: block;
+  padding: 5px 11px;
+	text-align: center;
+  border: 1px solid #e1e1e1;
+  border-radius: 5px;
+}
+
+.product-content .favourites:hover, .product-content .compare:hover {
+	border-color: #888;
+}
+
+.product-content .favourites i, .product-content .compare i {
+	opacity: 1;
+  margin-right: 15px;
+  float: left;
+  margin-top: 3px;
+}
+
+.product-actions-wrapper {
+	margin-left: -5px;
+  margin-right: -5px;
+}
+
+.product-actions-wrapper [class*="col-"] {
+	padding-left: 5px;
+  padding-right: 5px;
+}
+
+.navigation-uppercase .tabs-nav>li a {
+    font-size: 16px !important;
+    letter-spacing: 0;
+    text-transform: none;
+    font-weight: bold;
+    opacity: 1 !important;
+}
+@media only screen and (max-width: 999px) {
+  .burger {
+    display: inline-block;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .menu-item-compare, .menu-item-wishlist {
+  	display: block !important;
+  }
+  .secondary-nav {
+    margin-right: 45px;
+	}
+  .secondary-nav li {
+    margin-right: 11px;
+	}
+  .product-actions-wrapper [class*="col-"] a {
+    margin-bottom: 10px;
+    margin-right: 0 !important;
+  }
+}
+.menu-item-account a, .menu-item-compare a, .menu-item-wishlist a, .cart-trigger {
+	text-align: center;
+  display: inline-block;
+}
+.menu-item-account a:after, .menu-item-compare a:after, .menu-item-wishlist a:after, .cart-trigger:after, .burger:after {
+	content: attr(title);
+  font-size: 12px;
+  display: block;
+  letter-spacing: 0;
+  text-transform: none;
+  font-weight: normal;
+  opacity: .6;
+}
+.menu-item-account a span, .menu-item-compare a span, .menu-item-wishlist a span, .cart-trigger span {
+	margin-right: 0 !important;
+}
+.cart-trigger sup {
+	position: absolute;
+}
+
+.footer-menu::before {
+	display: block;
+  margin-bottom: 25px;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.footer-menu li a {
+    font-weight: normal;
+}
+
+.footer-menu-categories::before {
+	content: 'Categorías';
+}
+
+.footer-menu-service::before {
+	content: 'Información';
+}
+
+.footer-menu-custom-1::before {
+	content: 'Mi Cuenta';
+}
+
+.single-product-content .product-text-block {
+	position: relative;
+  padding-left: 52px;
+}
+
+.single-product-content .product-text-block:before {
+	content: '';
+  display: block;
+  width: 32px;
+  height: 32px;
+  background: url("delivery-fast.svg") no-repeat center;
+  background-size: contain;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+}
+.top-bar {
+    border-bottom: 1px solid rgba(255,255,255,.1);
+}
+.cta-section + .featured-blocks, .products-spotlight-section + .two-blocks-module {
+	margin-top: -50px;
+}
+
+.single-product-content .selling-points {
+  background: transparent;
+}
+.single-product-content .selling-points {
+	margin-bottom: 0;
+}
+.single-product-content .selling-item {
+    padding: 5px 10px 5px 0px;
+    min-width: 50%;
+  	border-right: 0;
+}
+.single-product-content .selling-item:after {
+	display: none;
+}
+.single-product-content .selling-points {
+  flex-wrap: wrap;
+}
+.selling-item a .nc-icon-mini {
+  color: #34a963;
+}
+.selling-item .usp-title {
+    font-weight: bold;
+}
+.single-product-content .selling-points-left .selling-item a .nc-icon-mini {
+  font-size: 18px;
+  margin-right: 10px;
+}
+.single-product-content .selling-item .usp-title {
+    font-size: 14px;
+    font-weight: bold;
+}
+.single-product-content .selling-item .usp-subtitle {
+  font-size: 12px;
+}
+@media only screen and (min-width: 1000px) {
+  .product-intro .product-content {
+    padding: 10px;
+  }
+}
+@media only screen and  (min-width: 1300px) {
+  .product-intro .product-content {
+    padding: 30px;
+  }
+}
+
+@media only screen and  (min-width: 1400px) {
+  .product-intro .product-content {
+    padding: 50px;
+  }
+}
+
+.selling-points .slick-list {
+	width: 100%;
+}
+
+.main-content > .selling-points {
+	margin-bottom: 0;
+  margin-left: -15px !important;
+  margin-right: -15px !important;
+  border-radius: 0;
+}
+
+.selling-points-left .selling-item a .usp-wrapper span {
+    display: block;
+    line-height: 1.3;
+}
+
+.site-header .nc-icon-mini.shopping_bag-20:before {
+  content: "\ebb7";
+}
+
+@media only screen and  (min-width: 600px) {
+  .main-content > .selling-points {
+    margin-left: -25px !important;
+    margin-right: -25px !important;
+  }
+  .main-content > .selling-points .selling-item .usp-subtitle {
+    font-size: 14px;
+	}
+  .main-content > .selling-points .selling-item .usp-title {
+    font-size: 17px;
+	}
+  .main-content > .selling-points.selling-poinnts-bg .selling-item {
+    padding: 2px 10px 5px 30px;
+	}
+  .main-content > .selling-points.selling-poinnts-bg {
+    padding: 9px 0;
+	}
+}
+
+@media only screen and  (min-width: 1000px) {
+  .main-content > .selling-points {
+    margin-left: -40px !important;
+    margin-right: -40px !important;
+  }
+}
+
+.single-product-content .delivery-timeframe {
+    font-size: 14px;
+    font-weight: bold;
+    color: #2D8A52;
+}
+
+/*john@advision*/
+.gui-payment-provider-we-r-bikes-payment-options{margin-top:15px;}
+.gui-payment-provider-we-r-bikes-payment-options .gui-payment-provider-title{display:none;}

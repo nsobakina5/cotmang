@@ -1,0 +1,239 @@
+body {
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-weight: 400;
+  color: #3b3b3b;
+  background: #ffffff; }
+
+body .gui, body .gui-block-linklist li a, body .gui a.gui-button-large, body .gui a.gui-button-small, .link {
+  color: #3b3b3b; }
+
+a, .stock > div, .label, .selectric-items li, .selectric-items li:hover, .selectric-items li.highlighted, .selectric-items li.selected, .selectric .label, input[type="text"], input[type="text"]:focus, input[type="email"], input[type="email"]:focus, input[type="url"], input[type="url"]:focus, input[type="password"], input[type="password"]:focus, input[type="search"], input[type="search"]:focus, input[type="number"], input[type="number"]:focus, input[type="tel"], input[type="tel"]:focus, input[type="range"], input[type="range"]:focus, input[type="date"], input[type="date"]:focus, input[type="month"], input[type="month"]:focus, input[type="week"], input[type="week"]:focus, input[type="time"], input[type="time"]:focus, input[type="datetime"], input[type="datetime"]:focus, input[type="datetime-local"], input[type="datetime-local"]:focus, input[type="color"], input[type="color"]:focus, textarea, textarea:focus, .nav-style li > ul li a, .nav-style li li.has-child:after, body.hotspot-modal-tm-1 .snpt-modal.hotspot-modal .public-item-modal div, .wsa-cookielaw, .dark-background .gui-block-linklist li a, .dark-background .gui-form label, .dark-background .gui a.gui-button-large, .dark-background .gui a.gui-button-small, .dark-background .gui-form label span.gui-nostyle, .gui ul.gui-products li .gui-products-title a, .gui a.gui-bold, .gui-table thead tr th, .gui-number .gui-value input, .collection-actions select, .page-content .yotpo span.yotpo-logo-title a, .page-content .yotpo .text-box, .page-content .yotpo .yotpo-text-box, .page-content .yotpo input, .page-content .yotpo .y-input, .page-content .yotpo .yotpo-review .yotpo-main .content-review, .yotpo .yotpo-comment .yotpo-main .content-review, .page-content .yotpo .yotpo-question .yotpo-main .content-review, .page-content .yotpo .yotpo-onsite-upload .yotpo-main .content-review, .page-content .yotpo .yotpo-review .yotpo-main .content-title, .page-content .yotpo .yotpo-comment .yotpo-main .content-title, .page-content .yotpo .yotpo-question .yotpo-main .content-title, .page-content .yotpo .yotpo-onsite-upload .yotpo-main .content-title, .page-content .yotpo .yotpo-nav ul .yotpo-nav-tab.yotpo-active span, .page-content .yotpo .yotpo-review .yotpo-header .yotpo-header-element .y-label.yotpo-user-name, .page-content .yotpo .yotpo-comment .yotpo-header .yotpo-header-element .y-label.yotpo-user-name, .page-content .yotpo .yotpo-question .yotpo-header .yotpo-header-element .y-label.yotpo-user-name, .page-content .yotpo .yotpo-onsite-upload .yotpo-header .yotpo-header-element .y-label.yotpo-user-name, .page-content .yotpo .yotpo-review .yotpo-read-more, .page-content .yotpo .yotpo-comment .yotpo-read-more, .page-content .yotpo .yotpo-question .yotpo-read-more, .page-content .yotpo .yotpo-onsite-upload .yotpo-read-more, .page-content .yotpo.yotpo-main-widget .yotpo-icon-btn .yotpo-icon-button-text, .page-content .yotpo .yotpo-modal-dialog .yotpo-icon-btn .yotpo-icon-button-text, .page-content .yotpo .y-label, .page-content .yotpo label.y-label, .page-content .yotpo .yotpo-default-button, .page-content .yotpo input[type="button"].yotpo-default-button, .page-content .yotpo .yotpo-default-button:hover, .page-content .yotpo input[type="button"].yotpo-default-button:hover, body .gui-checkout .gui-progressbar ul li.gui-active a, body .gui-form label span, body .gui-input input, body .gui-number input, body .gui-text textarea, body .gui-select .gui-value, body .snpt-pict-item .pct-crd__deets .pct-crd__deets-list li {
+  color: #3b3b3b; }
+
+.page-content .yotpo a {
+  color: #3b3b3b !important; }
+
+@media (max-width: 600px) {
+  .hero .hero-content a, .hero .hero-content h1, .hero .hero-content h2, .hero .hero-content p {
+    color: #3b3b3b; } }
+
+::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #3b3b3b;
+  opacity: 0.6; }
+
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #3b3b3b;
+  opacity: 0.6; }
+
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #3b3b3b;
+  opacity: 0.6; }
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #3b3b3b;
+  opacity: 0.6; }
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #3b3b3b;
+  opacity: 0.6; }
+
+.top-bar {
+  background: #202020; }
+
+.top-bar, .top-bar a {
+  color: #ffffff; }
+
+.site-header {
+  background: #202020; }
+
+.site-header, .site-header a, .logo-placeholder {
+  color: #ffffff; }
+
+@media only screen and (max-width: 1000px) {
+  .site-header-main-wrapper .nav-style li > ul li a, .site-header.content-light {
+    color: #ffffff; } }
+
+.menu-bottom-layout .main-nav-wrapper {
+  background-color: #2b2b2b; }
+
+.mobile-nav-overlay {
+  background-color: #2b2b2b; }
+
+.mega-menu-header .nav-style.main-nav > ul > li:not(.nav-category-dropdown) > ul a {
+  color: #ffffff; }
+
+.menu-bottom-layout .main-nav-wrapper, .menu-bottom-layout .main-nav-wrapper .nav-style > ul > li:not(.nav-category-dropdown) a, .menu-bottom-layout .main-nav-wrapper .nav-style > li:not(.nav-category-dropdown) a, .mobile-menu-subopen {
+  color: #ffffff; }
+
+@media only screen and (min-width: 1000px) {
+  .menu-bottom-layout:not(.mega-menu-header) .main-nav-wrapper .nav-style > ul > li:not(.nav-category-dropdown) li a {
+    color: #3b3b3b; } }
+
+@media only screen and (max-width: 1000px) {
+  .menu-bottom-layout .nav-style li > ul li a {
+    color: #ffffff; }
+  .menu-bottom-layout .nav-style li.nav-category-dropdown > ul li a, .nav-category-dropdown .mobile-menu-subopen {
+    color: #3b3b3b; } }
+
+footer {
+  background: #282828; }
+
+footer, footer a {
+  color: #eeeeee; }
+
+.nav-style.main-nav > ul > li {
+  border-color: rgba(255, 255, 255, 0.15); }
+
+.menu-visible .site-header {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15); }
+
+body .site-header-main-wrapper input[type="text"] {
+  border-color: rgba(255, 255, 255, 0.15); }
+
+@media only screen and (max-width: 999px) {
+  .menu-bottom-layout .nav-style.main-nav > ul > li {
+    border-color: rgba(255, 255, 255, 0.15); } }
+
+body .main-nav-wrapper input[type="text"] {
+  border-color: rgba(255, 255, 255, 0.15); }
+
+.cart-sidebar-container .cart-sidebar, .featherlight .featherlight-content, .products-list.slick-slider:before, .products-list.slick-slider:after, body .gui-popover-content, body .gui-progressbar, .grtyoutube-dark-theme .grtyoutube-popup-content, .pswp__bg, body .snpt-pict-item .pct-crd__deets {
+  background: #ffffff; }
+
+@media only screen and (min-width: 1000px) {
+  .site-width-large .product-images .slick-dots .slick-list:after {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(#ffffff));
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #ffffff); }
+  .site-width-large .product-images .slick-dots .slick-list:before {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(rgba(255, 255, 255, 0)));
+    background-image: linear-gradient(to bottom, #ffffff, rgba(255, 255, 255, 0)); } }
+
+.small-product-actions {
+  background: rgba(255, 255, 255, 0.8); }
+
+.pswp__top-bar, .pswp__caption, .pswp__ui--fit .pswp__top-bar, .pswp__ui--fit .pswp__caption {
+  background: rgba(255, 255, 255, 0.9); }
+
+.featured-categories .categories a figure, .collection-sidebar, .wsa-cookielaw, .page-content .yotpo .yotpo-review .yotpo-header .yotpo-icon-profile .yotpo-icon-circle-checkmark, .page-content .yotpo .yotpo-comment .yotpo-header .yotpo-icon-profile .yotpo-icon-circle-checkmark, .page-content .yotpo .yotpo-question .yotpo-header .yotpo-icon-profile .yotpo-icon-circle-checkmark, .page-content .yotpo .yotpo-onsite-upload .yotpo-header .yotpo-icon-profile .yotpo-icon-circle-checkmark, .map-overlay-content {
+  background-color: #ffffff; }
+
+body.hotspot-modal-tm-1 .snpt-modal.hotspot-modal .modal-content, .gui-checkout .gui-modal {
+  background-color: #ffffff !important; }
+
+.gui-checkout .gui-modal {
+  border: 0 !important;
+  box-shadow: 0 18px 86px -6px rgba(0, 0, 0, 0.15); }
+
+body .hotspot-modal, .wsa-cookielaw, .page-content .yotpo div, .page-content .yotpo span, .page-content .yotpo p, .page-content .yotpo a, .page-content .yotpo img, .page-content .yotpo i, .page-content .yotpo strong, .page-content .yotpo sup, .page-content .yotpo ul, .page-content .yotpo li, .page-content .yotpo form, .page-content .yotpo label, .page-content .yotpo input, .page-content .yotpo .y-input, .page-content .yotpo .text-box, .page-content .yotpo .yotpo-text-box {
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-weight: 400;
+  color: #3b3b3b; }
+
+body .public-hotspot--username {
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  color: #3b3b3b;
+  font-weight: 600; }
+
+.nav-style li > ul:after {
+  border-bottom-color: #ffffff; }
+
+.tabs-nav li.active a, .categories-list li.active a, .nav-style li.active a, .secondary-style input[type="text"], .secondary-style input[type="email"], .secondary-style input[type="url"], .secondary-style input[type="password"], .secondary-style input[type="search"], .secondary-style input[type="number"], .secondary-style .secondary-style input[type="tel"], .secondary-style input[type="range"], .secondary-style input[type="date"], .secondary-style input[type="month"], .secondary-style input[type="week"], .secondary-style input[type="time"], .secondary-style input[type="datetime"], .secondary-style input[type="datetime-local"], .secondary-style input[type="color"], .nav-style.main-nav li a:after, .mega-menu-open .content-light .nav-style.main-nav li a:after, .page-content .yotpo .yotpo-nav ul .yotpo-nav-tab.yotpo-active .yotpo-nav-wrapper {
+  border-color: #3b3b3b; }
+
+.dark-background .product-meta, .dark-background .product-intro, .dark-background .single-product-details, .dark-background .quantity-selector, .dark-background .collection-products .collection-sidebar, .dark-background .collection-products, .dark-background .product-actions .product-actions-items, .dark-background .product-modal .product-modal-content .price, .dark-background .gui-block-title, .dark-background .gui-block, .dark-background .featured-blog.related-blog, .dark-background .forgot-password, .dark-background .collection-sort, .dark-background .filter-wrap:not(:last-child), .dark-background .cart-sidebar-container .cart-sidebar .cart-sidebar-title, .dark-background input[type="text"], .dark-background input[type="email"], .dark-background input[type="url"], .dark-background input[type="password"], .dark-background input[type="search"], .dark-background input[type="number"], .dark-background input[type="tel"], .dark-background input[type="range"], .dark-background input[type="date"], .dark-background input[type="month"], .dark-background input[type="week"], .dark-background input[type="time"], .dark-background input[type="datetime"], .dark-background input[type="datetime-local"], .dark-background input[type="color"], .dark-background textarea, .dark-background .selectric, .dark-background .selling-points {
+  border-color: rgba(255, 255, 255, 0.08); }
+
+.dark-background .gui-input input, .dark-background .gui-text textarea {
+  border-color: rgba(255, 255, 255, 0.08) !important; }
+
+.ui-slider-horizontal .ui-slider-handle {
+  background-color: #3b3b3b; }
+
+h1, h2, h3, h4, h5, h6, .gui-page-title, .title-font, .gui-block-title, .page-content .yotpo .write-review .yotpo-header .yotpo-header-title {
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  color: #3b3b3b;
+  font-weight: 600; }
+
+body .gui-page-title, body .gui a.gui-bold, body .gui-block-subtitle, body .gui-table thead tr th, body .gui ul.gui-products li .gui-products-title a, body .gui-form label, body .gui-block-title.gui-dark strong, body .gui-block-title.gui-dark strong a, body .gui-content-subtitle, body .gui-content-title, body .gui-block-title {
+  color: #3b3b3b; }
+
+.featured-block h3, body .gui-block-title strong, .filter-wrap .filter-title, .product-element .product-title, .footer-logo-placeholder {
+  font-weight: 600; }
+
+body .snpt-pict-item * {
+  font-family: "Source Sans Pro", Helvetica, sans-serif; }
+
+.sidebar .sidebar-filters .filter-title, .filters-top .filter-title, .recent-products-wrap .recent-products-title, #productpage .product-content .specs table td:first-child, body .gui-block-title strong {
+  color: #3b3b3b; }
+
+.button.button-arrow.button-solid, .button, body.hotspot-modal-tm-1 public-modal > .hotspot-modal .public-hotspot-info-holder .public-hotspot-info .public-hotspot-info__btn-buy.snpt-cta-btn, .nav-style li.nav-category-dropdown.nav-category-dropdown-button > a, body .gui .gui-confirm-buttons a.gui-button-large.gui-button-action, body .gui .gui-confirm-buttons a.gui-button-small.gui-button-action, body .gui a.gui-button-large, body .gui a.gui-button-small, body .gui a.gui-button-small.gui-button-action {
+  background-color: #b71b1b; }
+  .button.button-arrow.button-solid:hover, .button:hover, body.hotspot-modal-tm-1 public-modal > .hotspot-modal .public-hotspot-info-holder .public-hotspot-info .public-hotspot-info__btn-buy.snpt-cta-btn:hover, .nav-style li.nav-category-dropdown.nav-category-dropdown-button > a:hover, body .gui .gui-confirm-buttons a.gui-button-large.gui-button-action:hover, body .gui .gui-confirm-buttons a.gui-button-small.gui-button-action:hover, body .gui a.gui-button-large:hover, body .gui a.gui-button-small:hover, body .gui a.gui-button-small.gui-button-action:hover {
+    background-color: #a11818; }
+
+body .gui a.gui-button-large, body .gui a.gui-button-small, body .gui a.gui-button-small.gui-button-action {
+  color: white; }
+
+.wsa-cookielaw-button-green {
+  background: #b71b1b; }
+  .wsa-cookielaw-button-green:hover {
+    background: #a11818; }
+
+a:hover, a:active, a:focus {
+  text-decoration: none; }
+
+.product-label, body .gui-messages ul, .messages ul, body .gui-messages ul.gui-success {
+  background-color: #5bb222; }
+
+body .gui-messages ul, .messages ul, body .gui-messages ul.gui-success {
+  border-color: #5bb222; }
+
+.ratings .nc-icon-mini, .page-content .yotpo .yotpo-bottomline .yotpo-icon-star, .page-content .yotpo .yotpo-bottomline .yotpo-icon-half-star, .page-content .yotpo .yotpo-bottomline .yotpo-icon-empty-star, .page-content .yotpo .yotpo-review .yotpo-header .yotpo-review-stars .yotpo-icon, .page-content .yotpo .yotpo-comment .yotpo-header .yotpo-review-stars .yotpo-icon, .page-content .yotpo .yotpo-question .yotpo-header .yotpo-review-stars .yotpo-icon, .page-content .yotpo .yotpo-onsite-upload .yotpo-header .yotpo-review-stars .yotpo-icon, .page-content .yotpo .yotpo-review .yotpo-header.yotpo-verified-user .yotpo-icon-circle-checkmark, .page-content .yotpo .yotpo-comment .yotpo-header.yotpo-verified-user .yotpo-icon-circle-checkmark, .page-content .yotpo .yotpo-question .yotpo-header.yotpo-verified-user .yotpo-icon-circle-checkmark, .page-content .yotpo .yotpo-onsite-upload .yotpo-header.yotpo-verified-user .yotpo-icon-circle-checkmark, body .yotpo .yotpo-bottomline .yotpo-icon-star, body .yotpo .yotpo-bottomline .yotpo-icon-half-star, body .yotpo .yotpo-bottomline .yotpo-icon-empty-star, .page-content .yotpo .write-review .yotpo-header .yotpo-icon, .page-content .yotpo.yotpo-main-widget .yotpo-bottomline.yotpo-bottomline-2-boxes .yotpo-bottomline-box-2 .yotpo-star-distribution .yotpo-star-distribution-content .yotpo-distibutions-stars .review-stars .yotpo-icon-star, .page-content .yotpo.yotpo-main-widget .yotpo-bottomline.yotpo-bottomline-2-boxes .yotpo-bottomline-box-2 .yotpo-star-distribution .yotpo-star-distribution-content .yotpo-distibutions-stars .review-stars .yotpo-icon-empty-star, .page-content .yotpo .yotpo-modal-dialog .yotpo-bottomline.yotpo-bottomline-2-boxes .yotpo-bottomline-box-2 .yotpo-star-distribution .yotpo-star-distribution-content .yotpo-distibutions-stars .review-stars .yotpo-icon-star, .page-content .yotpo .yotpo-modal-dialog .yotpo-bottomline.yotpo-bottomline-2-boxes .yotpo-bottomline-box-2 .yotpo-star-distribution .yotpo-star-distribution-content .yotpo-distibutions-stars .review-stars .yotpo-icon-empty-star, .page-content .yotpo .promoted-products-box .promoted-products .yotpo-promoted-product .yotpo-review-stars .yotpo-icon {
+  color: #b71b1b; }
+
+.product-custom-variants-options .custom-variant-picker.active {
+  /*border-color: #b71b1b;*/ }
+
+/*
+ .hero-element-1,
+ .hero-element-1 a,
+ .hero-element-1 h1,
+ .hero-element-1 h2 {
+ color:;
+ }
+ .hero-element-2,
+ .hero-element-2 a,
+ .hero-element-2 h1,
+ .hero-element-2 h2 {
+ color:;
+ }
+ .hero-element-3,
+ .hero-element-3 a,
+ .hero-element-3 h1,
+ .hero-element-3 h2 {
+ color:;
+ }
+ */
+/* Accent color */
+#header .main-header .search .icon, #footer .newsletter-block form .btn, .sidebar ul.side-cats li > .more-cats .plus-min:before, .sidebar ul.side-cats li > .more-cats .plus-min:after, .collection-filter-price .ui-slider-range, .collection-filter-price:after, .ui.dropdown .menu > .item:hover, .ui.dropdown .menu .selected.item, .ui.dropdown.selected, .tags-wrap .tags .tag.active, .blog-tags-wrap .blog-tags .blog-tag.active, .products .product .quickview-button .btn, .products .product-list .quickview-button .btn, #footer .main-footer .contact .icon, .collection-sort .filter-btn, .active-filters-box .active-filters .active-filter.clear-all label {
+  background-color: #b71b1b; }
+
+.ui.radio.checkbox input:checked ~ .box:after, .ui.radio.checkbox input:checked ~ label:after {
+  background-color: #b71b1b !important; }
+
+.home-products .tabs a.active, #footer .main-footer a:hover, .sidebar ul.side-cats li.active > a, .collection-sort .pager-text, .collection-sort .custom-pager ul li.next a, .collection-sort .custom-pager ul li.prev a, .ui.selection.dropdown > .dropdown.icon, .categories .category .btn:hover, #header .main-menu-wide ul li .mega-menu .menus .menu a.title, #header .topbar ul > li i, .sb-cats .sb-cats-wrap li.active > a, .sb-cats .sb-cats-wrap li.active > .more-cats i, .sb-cats .sb-cats-wrap ul li .hover-cats, .sb-cats .sb-cats-wrap li > a:hover, .collection-sort .grid-list ul li.active, #footer .main-footer .contact .text .title, #productpage .bundles .bundle .main-product .plus, #productpage .product-info .discounts ul li span, .mobile-menu ul li.active > a, .sb-cats .sb-cats-wrap ul li.active > a, #header .main-menu-wide ul li .mega-menu .menus .menu a:hover, .product-usp .usp-title .dot {
+  color: #b71b1b; }
+
+.ui.checkbox .box:after, .ui.checkbox label:after {
+  color: #b71b1b !important; }
+
+.collection-filter-price .ui-slider-handle, .tags-wrap .tags .tag.active, .blog-tags-wrap .blog-tags .blog-tag.active, #blog .complete-article .article-box .article-content, .active-filters-box .active-filters .active-filter.clear-all label {
+  border-color: #b71b1b; }
+
+#productpage .product-content .titles .title {
+  border-bottom-color: #b71b1b; }

@@ -1,0 +1,165 @@
+<html data-scrapbook-source="https://vts.zohopublic.com/crosdom.html" data-scrapbook-create="20200612095158171">
+<head><meta charset="UTF-8">
+</head>
+<body>UTS
+<script id="siqvtscrossdom">
+var $JSONUtil = window.$JSONUtil || function() {};
+var zohosq = window.$zohosq || {};
+
+//Nonce attr added for the current script
+if(zohosq.nonce)
+{
+	var crossdomscript = document.getElementById('siqvtscrossdom');
+	if(crossdomscript)
+	{
+		crossdomscript.setAttribute("nonce", zohosq.nonce);
+	}
+}
+$JSONUtil.stringify = function(obj) {
+    try {
+        return (Object.toJSON)?Object.toJSON(obj):JSON.stringify(obj);
+    } catch(e) {}
+};
+
+$JSONUtil.parseToJSON = function(value) {
+    try {
+        if (typeof(value) ==="object"){return value;}
+        value = JSON.parse(value);
+    } catch(e) {}
+    return value;
+};
+
+var $DBUtil = {};
+
+$DBUtil.backupStore = {};
+
+$DBUtil.isStorageAvailable = function(data_in) {
+    try {
+        var storage_medium = window[data_in.type];
+        
+        if (!storage_medium) {
+            return false;
+        }
+        storage_medium.setItem('quota_test', '1'); // NO I18N
+        storage_medium.removeItem('quota_test'); // NO I18N
+        return true;
+    } catch(e) {}
+    return false;
+};
+
+$DBUtil.getFromStorage = function(data_in) {
+    if (!this.isStorageAvailable(data_in)) {
+        return this.backupStore[data_in.key];
+    }
+    var key = data_in.key;
+    var storage_medium = window[data_in.type];
+    var data = $JSONUtil.parseToJSON(storage_medium.utsdb || "{}");
+    var obj = data[key];
+    
+    if (!obj) {
+        return null;
+    }
+    
+    if (obj.ttl && obj.ttl + obj.time < new Date().getTime()) {
+        delete data[key];
+        storage_medium.utsdb = $JSONUtil.stringify(data);
+        return null;
+    }
+    return obj;
+};
+
+$DBUtil.storeInStorage = function(data_in, orig) {
+    
+    if (!this.isStorageAvailable(data_in)) {
+        this.backupStore[data_in.key] = data_in.value;
+        return false;
+    }
+    var key = data_in.key;
+    var storage_medium = window[data_in.type];
+    var data = $JSONUtil.parseToJSON(storage_medium.utsdb || "{}");
+    
+    var obj = {};
+    obj[key] = data_in.value;
+    var ttl = data_in.ttl;
+    
+    if (orig) {
+    	obj.origin=orig.split("//")[1];
+    }
+    
+    if (ttl) {
+        obj.ttl = ttl;
+        obj.time = new Date().getTime();
+    }
+    data[key] = obj;
+    storage_medium.utsdb = $JSONUtil.stringify(data);
+    return true;
+};
+
+$DBUtil.removeFromStorage = function(data_in) {
+    if (!this.isStorageAvailable(data_in)) {
+        delete this.backupStore[data_in.key];
+        return false;
+    }
+    var key = data_in.key;
+    var storage_medium = window[data_in.type];
+    var data = $JSONUtil.parseToJSON(storage_medium.utsdb || "{}");
+    delete data[key];
+    storage_medium.utsdb = $JSONUtil.stringify(data);
+    return true;
+};
+
+var DStorage = DStorage || {
+    init : function() {
+        DStorage.bindListeners();
+        DStorage.sendPostMessage({operation :"initvtsiframe"}, "*"); // NO I18N
+    },
+    bindListeners : function() {
+        if( window.addEventListener ) {
+            addEventListener( "message", DStorage.receivePostMessage); // NO I18N
+        } else {
+            attachEvent("onmessage", DStorage.receivePostMessage); // NO I18N
+        }
+    },
+    receivePostMessage : function(event) {
+        var data;
+        
+        try {
+            data = $JSONUtil.parseToJSON(event.data);
+        } catch(e) {
+            return;
+        }
+        var operation = data.operation;
+        
+        if (operation == "setstorage") {
+        	DStorage.writeValue(data, event.origin);
+        } else if (operation == "getstorage") {
+        	DStorage.readMultipleValues(data, event.origin); // NO I18N
+        }
+    },
+	writeValue : function(data, orig) {
+		$DBUtil.storeInStorage(data, orig);
+	},
+	readMultipleValues : function(data, origin) {
+		var result={operation : "vts_data"}; // NO I18N
+		result.value={};
+		data.keys = $JSONUtil.parseToJSON(data.keys);
+		data.types = $JSONUtil.parseToJSON(data.types);
+		
+		if(data.keys) {
+			for(var itr = 0;itr < data.keys.length;itr++) {
+				var key = data.keys[itr];
+				var type = data.types[itr];
+				result.value[key] = $DBUtil.getFromStorage({key: key, type: type});
+			}
+		}
+		DStorage.sendPostMessage(result, origin);
+	},
+	sendPostMessage : function(data, origin) {
+	    parent.postMessage($JSONUtil.stringify(data), origin);
+	}
+};
+DStorage.init();
+</script>
+
+</body>
+</html>
